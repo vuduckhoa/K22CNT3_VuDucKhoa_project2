@@ -1,0 +1,91 @@
+﻿@model IEnumerable<K22CNT2_VuDucKhoa_project2.Models.EF.Categor>
+@{
+    ViewBag.Title = "Danh Muc";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section navaiheader
+    {
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/admin/categor" class="nav-link">Trang chu</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/admin/categor" class="nav-link">danh muc</a>
+        </li>
+    </ul>
+
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Quan ly Danh Muc</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Trang chu</a></li>
+                    <li class="breadcrumb-item active">Danh Muc</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Danh sach danh muc</h3>
+
+            <div class="card-tools">
+                <a href="/admin/categor/add" class="btn btn-primary">them moi</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>ten danh muc</th>
+                        <th>thu tu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    }
+                    else
+                    {
+
+                        <tr>
+                            <td colspan="4">khong co ban ghi nao</td>
+                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+           
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+        </div>
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+
+</section>
