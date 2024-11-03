@@ -16,6 +16,8 @@ namespace K22CNT2_VuDucKhoa_project2.Models.EF
         [Required]
         [StringLength(150)]
         public string Titel { get; set; }
+        public string Alias { get; set; }
+
         public int Categorid { get; set; }
         public string Description { get; set; }
         public string Detail { get; set; }

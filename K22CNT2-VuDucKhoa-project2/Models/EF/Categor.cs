@@ -20,6 +20,7 @@ namespace K22CNT2_VuDucKhoa_project2.Models.EF
         [Required(ErrorMessage ="ten k dc de trong")]
         [StringLength(150)]
         public string Title { get; set; }
+        public string Alias { get; set; }
         public string Descriptio { get; set; }
         [StringLength(150)]
 

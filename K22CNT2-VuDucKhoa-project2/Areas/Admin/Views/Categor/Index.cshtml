@@ -11,7 +11,7 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/admin/categor" class="nav-link">Trang chu</a>
+            <a href="/admin/home" class="nav-link">Trang chu</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="/admin/categor" class="nav-link">danh muc</a>
@@ -60,21 +60,28 @@
                 <tbody>
                     @if (Model != null && Model.Any())
                     {
+                        var i = 1;
+                        foreach (var item in Model)
+                        {
 
-
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                            <tr id="trow_@item.Id">
+                                <td>@i</td>
+                                <td>@item.Title</td>
+                                <td>@item.Position</td>
+                                <td>
+                                    <a href="/admin/categor/edit/@item.Id" class="btn btn-sm btn-primary">sua</a>
+                                    <a href="#"data-id="@item.Id" class="btn btn-sm btn-danger btnDelete">xoa</a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
                     }
                     else
                     {
 
                         <tr>
                             <td colspan="4">khong co ban ghi nao</td>
-                            
+
                         </tr>
                     }
                 </tbody>
@@ -89,3 +96,16 @@
     <!-- /.card -->
 
 </section>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $('body').on('click', 'btnDelete', function () {
+                var id = $(this).data("id");
+                var conf = confirm('ban co muon xoa ban ghi nay khong');
+                if (conf === true) {
+                    alert(id);
+                }
+            });
+        });
+    </script>
+}

@@ -185,8 +185,13 @@
     <Compile Include="Migrations\202411021725242_UpdateCategor.Designer.cs">
       <DependentUpon>202411021725242_UpdateCategor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202411030839107_UpdateData.cs" />
+    <Compile Include="Migrations\202411030839107_UpdateData.Designer.cs">
+      <DependentUpon>202411030839107_UpdateData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Commons\Filter.cs" />
     <Compile Include="Models\EF\Adv.cs" />
     <Compile Include="Models\EF\Categor.cs" />
     <Compile Include="Models\CommonAbstract.cs" />
@@ -2209,6 +2214,7 @@
     <Content Include="Areas\Admin\Views\Shared\_PartiaSideBar.cshtml" />
     <Content Include="Areas\Admin\Views\Categor\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Categor\Add.cshtml" />
+    <Content Include="Areas\Admin\Views\Categor\Edit.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2292,6 +2298,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202411021725242_UpdateCategor.resx">
       <DependentUpon>202411021725242_UpdateCategor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411030839107_UpdateData.resx">
+      <DependentUpon>202411030839107_UpdateData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
