@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\areas\\admin\\views\\categor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\categor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\areas\\admin\\views\\new\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\new\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\areas\\admin\\views\\new\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\new\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\areas\\admin\\views\\categor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\categor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\areas\\admin\\controllers\\newcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\controllers\\newcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\areas\\admin\\views\\categor\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\views\\categor\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\areas\\admin\\controllers\\categorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:areas\\admin\\controllers\\categorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\models\\commons\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:models\\commons\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|d:\\hoc\\k22cnt3_vuduckhoa_project2\\k22cnt2-vuduckhoa-project2\\migrations\\202411080626383_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858439CF-A43C-447A-B006-EDA5DCB0D369}|K22CNT2-VuDucKhoa-project2.csproj|solutionrelative:migrations\\202411080626383_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEABAAAAAAAAAAAAAFMBAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T10:43:24.147Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categor\\Index.cshtml",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Categor\\Index.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAgwEEAAAAAAAAA",
+              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\New\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\New\\Index.cshtml",
+              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\New\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\New\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T08:47:12.297Z",
+              "WhenOpened": "2024-11-08T06:28:08.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\New\\Add.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\New\\Add.cshtml",
+              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\New\\Add.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\New\\Add.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEkAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T13:17:45.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categor\\Edit.cshtml",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Categor\\Edit.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAADYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T10:06:17.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Filter.cs",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Models\\Commons\\Filter.cs",
-              "RelativeDocumentMoniker": "Models\\Commons\\Filter.cs",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Models\\Commons\\Filter.cs",
-              "RelativeToolTip": "Models\\Commons\\Filter.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwB8AAAAnAAAA",
+              "Title": "NewController.cs",
+              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Controllers\\NewController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NewController.cs",
+              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Controllers\\NewController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\NewController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:40:35.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategorController.cs",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Controllers\\CategorController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategorController.cs",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Controllers\\CategorController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategorController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAswFAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:58:58.594Z",
+              "WhenOpened": "2024-11-07T13:16:40.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Add.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categor\\Add.cshtml",
-              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Areas\\Admin\\Views\\Categor\\Add.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Categor\\Add.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAcwGgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T14:29:26.132Z",
+              "Title": "202411080626383_UpdateDatabase.cs",
+              "DocumentMoniker": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Migrations\\202411080626383_UpdateDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\202411080626383_UpdateDatabase.cs",
+              "ToolTip": "D:\\hoc\\K22CNT3_VuDucKhoa_project2\\K22CNT2-VuDucKhoa-project2\\Migrations\\202411080626383_UpdateDatabase.cs",
+              "RelativeToolTip": "Migrations\\202411080626383_UpdateDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:26:44.875Z",
               "EditorCaption": ""
             }
           ]

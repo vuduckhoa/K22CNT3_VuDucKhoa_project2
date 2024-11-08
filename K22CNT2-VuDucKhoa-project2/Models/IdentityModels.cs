@@ -39,6 +39,8 @@ namespace K22CNT2_VuDucKhoa_project2.Models
         public DbSet<Order>Orders { get; set; }
         public DbSet<OrderDetail>OrderDetails { get; set; }
         public DbSet<Subscribe>Subscribes { get; set; }
+        public object New { get; internal set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

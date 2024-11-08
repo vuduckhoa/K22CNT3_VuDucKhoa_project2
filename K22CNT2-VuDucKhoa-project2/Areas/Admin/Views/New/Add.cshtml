@@ -1,0 +1,133 @@
+﻿@model K22CNT2_VuDucKhoa_project2.Models.EF.New
+
+@{
+    ViewBag.Title = "Them moi tt";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section navaiheader{
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/admin/Home" class="nav-link">Trang chu</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/admin/new" class="nav-link">Tin tuc</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">them moi</a>
+        </li>
+    </ul>
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Them moi tin tuc</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">tin tuc</a></li>
+                    <li class="breadcrumb-item active">Them moi</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">thong tin them moi</h3>
+
+
+        </div>
+        <div class="card-body">
+            <div class="bs-stepper-content">
+                @using (Html.BeginForm("Add", "new", FormMethod.Post, new { }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Ten</label>
+                        @Html.TextBoxFor(x => x.Titel, new { @class = "form-control", @placeholder = "tieu de" })
+                        @Html.ValidationMessageFor(x => x.Titel, null, new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mo Ta</label>
+                        @Html.TextAreaFor(x => x.Description, new { @Class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Them anh</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                @Html.TextBoxFor(x => x.Imaga, new {  @id = "txtImaga", @class = "form-control" })
+                            </div>
+                            <div class="input-group-append">
+                                <input type="button"value="tai anh"onclick="BrowseServer('txtImaga');"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">SeoTitle</label>
+                        @Html.TextAreaFor(x => x.SeoTitle, new { @Class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">chi tiet</label>
+                        @Html.TextAreaFor(x => x.Detail, new { @Class = "form-control",@id="txtDetail" })
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">SeoDescriptio</label>
+                        @Html.TextAreaFor(x => x.SeoDescriptio, new { @Class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">SeoKeyWords</label>
+                        @Html.TextAreaFor(x => x.SeoKeyWords, new { @Class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <a href="/admin/categor" class="btn btn-danger">quay lai</a>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </div>
+
+                }
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer">
+
+    </div>
+    <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+
+</section>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            CKEDITOR.replace('txtDetail', {
+                customConfig: '/content/ckeditor/config.js',
+                extraAllowedContent:'span',
+            })
+        });
+        function BrowseServer(field) {
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                document.getElementById(field).value = fileUrl;
+            };
+            finder.popup();
+        }
+    </script>
+    }
